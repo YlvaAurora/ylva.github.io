@@ -1,0 +1,121 @@
+
+
+body {
+    background-color: rgb(103, 122, 84);
+    margin-top: 30px;
+    height: 200vh;
+}
+
+head {
+    background-color: rgb(226, 135, 150);
+    margin-top: 30px;
+}
+
+
+
+
+/* Navbar */
+.navbar {
+    font-family: sans-serif;
+    display: flex;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+/* Linkene inni navbaren */
+.navbar a {
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: rgb(142, 102, 76);
+    color: black;
+    border: 1px solid black;
+    float: left;
+    display: block;
+    color: bisque;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: rgba(150, 104, 73, 0.689);
+    color: black;
+}
+
+#container {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    min-height: 220vh;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(131, 91, 64);
+    padding-bottom: 2.5rem; 
+    margin-top: 60px;
+    color: bisque;
+}
+  
+#content{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: bisque;
+    border: 1px solid black;
+    background-color: rgb(123, 92, 76);
+    width: 60%;
+    height: 25rem;
+    margin-top: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;    
+    border: 1px solid black;
+    background-color: rgb(174, 134, 104);
+    color: bisque;
+    margin-bottom: 1rem;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: bisque;
+    border: 1px solid black;
+    background-color: rgb(153, 101, 76);
+    width: 60%;
+    height: 45rem;
+    margin-top: 20px;
+}
+
+#slagord {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: rgb(240, 168, 180);
+    border: 1px solid black;
+    background-color: rgb(142, 97, 76);
+    width: 60%;
+    height: 5rem;
+    margin-top: 20px;
+}
+
+#fordeling, img {
+    height: 300px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
